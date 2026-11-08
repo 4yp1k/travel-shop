@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ТурМагазин — путёвки на российские курорты: Сочи, Крым, Кавминводы, Алтай, Байкал. Лучшие цены и горящие туры.">
+  <meta name="keywords" content="путёвки, туры, курорты России, Сочи, Крым, отдых, ТурМагазин">
+  <meta name="author" content="ТурМагазин">
+  <title>ТурМагазин — Путевки на российские курорты</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <i class="bi bi-airplane-engines me-1"></i> ТурМагазин
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMain">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Главная</a></li>
+            <li class="nav-item"><a class="nav-link" href="catalog.html">Каталог туров</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">О нас</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+          </ul>
+          <a href="cart.html" class="btn btn-outline-light btn-sm position-relative">
+            <i class="bi bi-cart3"></i> Корзина
+            <span class="cart-badge">2</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <h1>Отдых на лучших курортах России</h1>
+        <p>Сочи, Крым, Кавказские Минеральные Воды, Алтай, Байкал — подберите идеальную путёвку</p>
+        <a href="catalog.html" class="btn btn-accent btn-lg px-4">Смотреть туры</a>
+      </div>
+    </section>
+
+    <div class="container pb-5">
+      <!-- Features -->
+      <section class="mb-5">
+        <div class="row g-4">
+          <div class="col-6 col-md-3">
+            <div class="feature-box">
+              <div class="icon">🏖️</div>
+              <h6>200+ курортов</h6>
+              <small class="text-muted">По всей России</small>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="feature-box">
+              <div class="icon">💲</div>
+              <h6>Лучшие цены</h6>
+              <small class="text-muted">Горящие туры</small>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="feature-box">
+              <div class="icon">🛡️</div>
+              <h6>Страхование</h6>
+              <small class="text-muted">В каждой путёвке</small>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="feature-box">
+              <div class="icon">📞</div>
+              <h6>Поддержка 24/7</h6>
+              <small class="text-muted">Всегда на связи</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Popular tours -->
+      <section>
+        <h2 class="section-title">Популярные туры</h2>
+        <div class="row g-4">
+          <!-- Tour 1 -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <article class="tour-card">
+              <div class="card-img-wrap">
+                <span class="badge-discount">−25%</span>
+                <img src="images/1.jpg" alt="Сочи, отель у моря" loading="lazy">
+              </div>
+              <div class="card-body">
+                <span class="badge-region">Краснодарский край</span>
+                <h3 class="card-title mt-2">Сочи — Все включено</h3>
+                <div class="meta"><i class="bi bi-calendar3"></i> 7 ночей · <i class="bi bi-star-fill stars"></i> 4.8</div>
+                <p class="small text-muted mb-2">Отель 4★ у моря, завтраки, трансфер, страховка</p>
+                <div class="price"><del>48 000 ₽</del> 36 000 ₽</div>
+                <a href="product.html?id=sochi" class="btn btn-primary btn-sm mt-2 w-100">Подробнее</a>
+              </div>
+            </article>
+          </div>
+          <!-- Tour 2 -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <article class="tour-card">
+              <div class="card-img-wrap">
+                <img src="images/2.jpg" alt="Крым, Ялта" loading="lazy">
+              </div>
+              <div class="card-body">
+                <span class="badge-region">Крым</span>
+                <h3 class="card-title mt-2">Ялта — Ласточкино гнездо</h3>
+                <div class="meta"><i class="bi bi-calendar3"></i> 10 ночей · <i class="bi bi-star-fill stars"></i> 4.9</div>
+                <p class="small text-muted mb-2">Пансионат 3★, экскурсии, питание 2-разовое</p>
+                <div class="price">42 500 ₽</div>
+                <a href="product.html?id=yalta" class="btn btn-primary btn-sm mt-2 w-100">Подробнее</a>
+              </div>
+            </article>
+          </div>
+          <!-- Tour 3 -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <article class="tour-card">
+              <div class="card-img-wrap">
+                <span class="badge-discount">Хит</span>
+                <img src="images/3.jpg" alt="Алтай, горы" loading="lazy">
+              </div>
+              <div class="card-body">
+                <span class="badge-region">Алтай</span>
+                <h3 class="card-title mt-2">Горный Алтай — Турбаза</h3>
+                <div class="meta"><i class="bi bi-calendar3"></i> 8 ночей · <i class="bi bi-star-fill stars"></i> 4.7</div>
+                <p class="small text-muted mb-2">Эко-домики, треккинг, баня, питание</p>
+                <div class="price">29 900 ₽</div>
+                <a href="product.html?id=altai" class="btn btn-primary btn-sm mt-2 w-100">Подробнее</a>
+              </div>
+            </article>
+          </div>
+          <!-- Tour 4 -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <article class="tour-card">
+              <div class="card-img-wrap">
+                <img src="images/4.jpg" alt="Кавминводы" loading="lazy">
+              </div>
+              <div class="card-body">
+                <span class="badge-region">Ставропольский край</span>
+                <h3 class="card-title mt-2">Кисловодск — Санаторий</h3>
+                <div class="meta"><i class="bi bi-calendar3"></i> 14 ночей · <i class="bi bi-star-fill stars"></i> 4.6</div>
+                <p class="small text-muted mb-2">Лечение, процедуры, 3-разовое питание</p>
+                <div class="price">55 000 ₽</div>
+                <a href="product.html?id=kislovodsk" class="btn btn-primary btn-sm mt-2 w-100">Подробнее</a>
+              </div>
+            </article>
+          </div>
+          <!-- Tour 5 -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <article class="tour-card">
+              <div class="card-img-wrap">
+                <img src="images/5.jpg" alt="Байкал" loading="lazy">
+              </div>
+              <div class="card-body">
+                <span class="badge-region">Иркутская область</span>
+                <h3 class="card-title mt-2">Озеро Байкал</h3>
+                <div class="meta"><i class="bi bi-calendar3"></i> 6 ночей · <i class="bi bi-star-fill stars"></i> 4.9</div>
+                <p class="small text-muted mb-2">Гостевой дом, экскурсии, круиз по озеру</p>
+                <div class="price">38 700 ₽</div>
+                <a href="product.html?id=baikal" class="btn btn-primary btn-sm mt-2 w-100">Подробнее</a>
+              </div>
+            </article>
+          </div>
+          <!-- Tour 6 -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <article class="tour-card">
+              <div class="card-img-wrap">
+                <span class="badge-discount">−15%</span>
+                <img src="images/6.jpg" alt="Анапа" loading="lazy">
+              </div>
+              <div class="card-body">
+                <span class="badge-region">Краснодарский край</span>
+                <h3 class="card-title mt-2">Анапа — Семейный отдых</h3>
+                <div class="meta"><i class="bi bi-calendar3"></i> 10 ночей · <i class="bi bi-star-fill stars"></i> 4.5</div>
+                <p class="small text-muted mb-2">Отель у пляжа, детская анимация, all inclusive</p>
+                <div class="price"><del>52 000 ₽</del> 44 200 ₽</div>
+                <a href="product.html?id=anapa" class="btn btn-primary btn-sm mt-2 w-100">Подробнее</a>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <a href="catalog.html" class="btn btn-outline-primary">Весь каталог туров →</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <h5><i class="bi bi-airplane-engines me-1"></i> ТурМагазин</h5>
+          <p class="small">Интернет-магазин путёвок на российские курорты. Работаем с 2015 года.</p>
+        </div>
+        <div class="col-6 col-md-2">
+          <h5>Разделы</h5>
+          <ul class="list-unstyled small">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-3">
+          <h5>Курорты</h5>
+          <ul class="list-unstyled small">
+            <li><a href="catalog.html">Сочи</a></li>
+            <li><a href="catalog.html">Крым</a></li>
+            <li><a href="catalog.html">Кавминводы</a></li>
+            <li><a href="catalog.html">Алтай</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Контакты</h5>
+          <p class="small mb-1"><i class="bi bi-telephone me-1"></i> 8 (800) 123-45-67</p>
+          <p class="small mb-1"><i class="bi bi-envelope me-1"></i> info@turmagazin.ru</p>
+          <p class="small"><i class="bi bi-geo-alt me-1"></i> г. Москва, ул. Тверская, 12</p>
+        </div>
+      </div>
+      <hr class="border-light opacity-25 my-3">
+      <p class="text-center small mb-0">&copy; 2026 ТурМагазин. Лабораторная работа №2. Вариант 6.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/tours.js"></script>
+  <script src="js/cart.js"></script>
+</body>
+</html>
